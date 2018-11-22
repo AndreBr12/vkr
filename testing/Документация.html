@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<title>HOME</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<link rel="stylesheet" href="stili.css">
+</head>
+    <body>
+		<p style="text-align:center"><span style="font-size:24px"><strong>Тестирование малогабаритных коммутационных устройств</strong></span></p>
+
+		<p><input name="Button" type="button" value="Прошлые испытания" />&nbsp;<input type="button" value="Документация" />&nbsp;<input type="button" value="Таблицы" />&nbsp;<input type="button" value="Заметки" /></p>
+
+
+
+		<div class="block">
+				<p><span style="font-size:18px">Температуры:&nbsp;</span></p>	
+				<p style="margin-left:40px"><span style="font-size:18px">Температура 1:</span>
+							<script type = "text/javascript">
+								a = Math.floor(Math.random() * (99 - 20 + 1)) + 20;
+								document.write(a);
+							</script>
+				</p>
+				<p style="margin-left:40px"><span style="font-size:18px">Темперавтура 2:</span>
+							<script type = "text/javascript">
+								a = Math.floor(Math.random() * (99 - 20 + 1)) + 20;
+								if (a > 80 || a < 50)
+									document.write(a,"  Выход из диапазона");
+								else
+									document.write(a);
+							</script>
+				</p>
+				<p style="margin-left:40px"><span style="font-size:18px">Температура 3:</span>
+							<script type = "text/javascript">
+								a = Math.floor(Math.random() * (99 - 20 + 1)) + 20;
+								document.write(a);
+							</script>
+				</p>
+				<p style="margin-left:40px"><span style="font-size:18px"><input type="button" value="Открыть график температур"</span></p>
+		</div>		
+
+
+
+		<div class="block">
+				<p><span style="font-size:18px">Влажности :</span></p>
+				<p style="margin-left:40px"><span style="font-size:18px">Влажность 1:</span>
+							<script type = "text/javascript">
+								a = Math.floor(Math.random() * (99 - 50 + 1)) + 50;
+								document.write(a);
+							</script></p>
+				<p style="margin-left:40px"><span style="font-size:18px">Влажность 2:</span>
+							<script type = "text/javascript">
+								a = Math.floor(Math.random() * (99 - 50 + 1)) + 50;
+								document.write(a);
+							</script></p>
+				</p>
+				<p style="margin-left:40px"><span style="font-size:18px">Влажность 3:</span>
+							<script type = "text/javascript">
+								a = Math.floor(Math.random() * (99 - 50 + 1)) + 50;
+								document.write(a);
+							</script></p>
+				</p>
+				<p style="margin-left:40px"><span style="font-size:18px"><input type="button" value="Открыть график влажности" /></span></p>
+		</div>
+
+
+		<div class="block">
+		<p><span style="font-size:18px">Ручное управление</span></p>
+		<p><span style="font-size:18px">Управление нагреанием</span></p>
+		<p><span style="background-color:#00FF00">&nbsp;</span><span style="font-size:18px"><span style="background-color:#00FF00"><input name="Vkl" type="button" value="Включить" /></span></span><span style="background-color:#00FF00">&nbsp;</span> &nbsp; <span style="background-color:#FF0000">&nbsp;<input name="Vikl" type="button" value="Выключить" />&nbsp;</span></p>
+		<p><span style="font-size:18px">&nbsp; &nbsp;Управление увлажнителем</span></p>
+		<p><span style="background-color:#00FF00">&nbsp;<input name="Vkll" type="button" value="Включить" />&nbsp;</span> &nbsp;<span style="background-color:#FF0000">&nbsp;</span><input name="Vikll" type="button" value="Выключить" /><span style="background-color:#FF0000">&nbsp;</span></p>
+		</div>
+   </body>
+</html> 
